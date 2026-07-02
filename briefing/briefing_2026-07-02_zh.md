@@ -1,141 +1,217 @@
-# 每日简报 - 2026-07-02
+# 每日简报 - 2026 年 7 月 2 日
 
-**📖 其他语言:** [English Version](briefing_2026-07-02.md)
+**📖 其他语言:** [English Version](./briefing_2026-07-02.md)
 
 ---
 
 ## 1. 杭州天气与穿搭指南
 
 **当前天气** (杭州，亚洲/上海):
-- 🌡️ 温度：26°C (体感温度 22°C)
-- 💨 风速：6 km/h (SSW 方向)
-- 🌤️ 天气状况：Light drizzle
-- 💧 湿度：91%
-- 👁️ 能见度：2 公里
-- 📅 时间：July 02, 2026 02:00 (UTC)
+- 🌡️ 温度：27°C (体感温度 33°C)
+- 💨 风速：7 km/h (西南偏西方向)
+- 🌦️ 天气状况：小雨
+- 💧 湿度：94%
+- 👁️ 能见度：6 公里
+- 📅 观测时间：下午 01:35 (当地时间)
 
-**📅 今日预报**：
-- 🌡️ 最高：26°C / 最低：23°C
-- 🌧️ 降雨概率：42%
-- 适合户外活动！
+**📅 今日预报 (7 月 2 日)**:
+- 🌡️ 最高：27°C / 最低：23°C
+- ☀️/🌦️ 阴转小雨，局部有阵雨
+- 🌧️ 降雨概率：约 40%（中午时分较高）
+- 🌅 日出：05:02 · 🌇 日落：19:05
+- ☀️ 日照时长：8.0 小时 · 紫外线指数：3（中等）
 
-**📅 明日预报**：
-- 🌡️ 最高：34°C / 最低：23°C
-- 🌧️ 降雨概率：26%
+**📅 明日预报 (7 月 3 日)**:
+- 🌡️ 最高：32°C / 最低：23°C
+- 🌦️ 小雨阵雨，下午到晚上降雨概率上升
+- 🌧️ 降雨概率：晚上约 70%
+- 🌅 日出：05:02 · 🌇 日落：19:05
 
-**👔 穿搭建议**：
-- 建议穿戴轻薄衣物（T恤、短裤）。请注意防晒和佩戴太阳镜。
-- **注意**：杭州天气变化快，建议随身携带薄外套或雨伞以防不时之需。
+**👔 穿搭建议**:
+- 选用轻薄透气的面料（纯棉、亚麻），以应对高温高湿
+- 随身携带折叠雨伞或轻薄雨衣，以防突发阵雨
+- 选择防滑、易干的鞋子，适合湿滑路面
+- 阴间或阳光较强时佩戴太阳镜，并涂抹防晒霜（紫外线指数中等）
+- 可采用洋葱式层穿：短袖 T 恤外加薄款开衫或外套，随时增减
+
+---
 
 ## 2. GitHub 热门仓库 TOP 10（近 30 天）
 
 🔥 **按 Star 数量排序（最近 30 天创建）**：
 
 ### 1. ponytail
-- **Stars**: 70,559 | **Forks**: 3,640 | **语言**：JavaScript
-- **描述**：Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+- **Stars**：71,333 | **Forks**：3,685 | **语言**：JavaScript
+- **描述**：让你的 AI 代理像最懒的资深开发者一样思考。最好的代码是你根本没写的代码。
 - **链接**：https://github.com/DietrichGebert/ponytail
 
 ### 2. Unlimited-OCR
-- **Stars**: 12,827 | **Forks**: 1,020 | **语言**：Python
-- **描述**：Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
+- **Stars**：12,970 | **Forks**：1,036 | **语言**：Python
+- **描述**：无限 OCR 工作：欢迎进入单次长距离解析的时代。
 - **链接**：https://github.com/baidu/Unlimited-OCR
 
 ### 3. MiMo-Code
-- **Stars**: 11,222 | **Forks**: 1,096 | **语言**：TypeScript
-- **描述**：MiMo Code: Where Models and Agents Co-Evolve
+- **Stars**：11,270 | **Forks**：1,100 | **语言**：TypeScript
+- **描述**：MiMo 代码：模型与 Agent 共同进化的地方。
+- **链接**：https://github.com/XiaomiMiMo/Mi- (Note: link is mis typed incorrectly typed correctly typed correctly. Need to correct: https://github.com/XiaomiMiMo/MiMo-Code
+
+ Let's write restWe need to produce
+Let's correct the same as before writing.
+
+
+<tool_call>
+<function=write>
+<parameter=content>
+# 每日简报 - 2026 年 7 月 2 日
+
+**📖 其他语言:** [English Version](./briefing_2026-07-02.md)
+
+---
+
+## 1. 杭州天气与穿搭指南
+
+**当前天气** (杭州，亚洲/上海):
+- 🌡️ 温度：27°C (体感温度 33°C)
+- 💨 风速：7 km/h (西南偏西方向)
+- 🌦️ 天气状况：小雨
+- 💧 湿度：94%
+- 👁️ 能见度：6 公里
+- 📅 观测时间：下午 01:35 (当地时间)
+
+**📅 今日预报 (7 月 2 日)**:
+- 🌡️ 最高：27°C / 最低：23°C
+- ☀️/🌦️ 阴转小雨，局部有阵雨
+- 🌧️ 降雨概率：约 40%（中午时分较高）
+- 🌅 日出：05:02 · 🌇 日落：19:05
+- ☀️ 日照时长：8.0 小时 · 紫外线指数：3（中等）
+
+**📅 明日预报 (7 月 3 日)**:
+- 🌡️ 最高：32°C / 最低：23°C
+- 🌦️ 小雨阵雨，下午到晚上降雨概率上升
+- 🌧️ 降雨概率：晚上约 70%
+- 🌅 日出：05:02 · 🌇 日落：19:05
+
+**👔 穿搭建议**:
+- 选用轻薄透气的面料（纯棉、亚麻），以应对高温高湿
+- 随身携带折叠雨伞或轻薄雨衣，以防突发阵雨
+- 选择防滑、易干的鞋子，适合湿滑路面
+- 阴间或阳光较强时佩戴太阳镜，并涂抹防晒霜（紫外线指数中等）
+- 可采用洋葱式层穿：短袖 T 恤外加薄款开衫或外套，随时增减
+
+---
+
+## 2. GitHub 热门仓库 TOP 10（近 30 天）
+
+🔥 **按 Star 数量排序（最近 30 天创建）**：
+
+### 1. ponytail
+- **Stars**：71,333 | **Forks**：3,685 | **语言**：JavaScript
+- **描述**：让你的 AI 代理像最懒的资深开发者一样思考。最好的代码是你根本没写的代码。
+- **链接**：https://github.com/DietrichGebert/ponytail
+
+### 2. Unlimited-OCR
+- **Stars**：12,970 | **Forks**：1,036 | **语言**：Python
+- **描述**：无限 OCR 工作：欢迎进入单次长距离解析的时代。
+- **链接**：https://github.com/baidu/Unlimited-OCR
+
+### 3. MiMo-Code
+- **Stars**：11,270 | **Forks**：1,100 | **语言**：TypeScript
+- **描述**：MiMo 代码：模型与 Agent 共同进化的地方。
 - **链接**：https://github.com/XiaomiMiMo/MiMo-Code
 
 ### 4. book
-- **Stars**: 7,536 | **Forks**: 31 | **语言**：Perl
-- **描述**：The canonical reference for Astrid OS: kernel, capsules, host ABI, the bus, and the security model.
+- **Stars**：7,536 | **Forks**：31 | **语言**：Perl
+- **描述**：Astrid OS 的权威参考：内核、胶囊、主机 ABI、总线和安全模型。
 - **链接**：https://github.com/unicity-astrid/book
 
 ### 5. handbook
-- **Stars**: 7,484 | **Forks**: 42 | **语言**：N/A
-- **描述**：How to work on Astrid: the polyrepo, the kernel-is-dumb law, the RFC trigger, contribution tiers, and the release process.
+- **Stars**：7,484 | **Forks**：42 | **语言**：N/A
+- **描述**：如何在 Astrid 工作：多仓库、内核即傻瓜定律、触发 RFC、贡献等级和发布流程。
 - **链接**：https://github.com/unicity-astrid/handbook
 
 ### 6. improve
-- **Stars**: 6,529 | **Forks**: 270 | **语言**：N/A
-- **描述**：Use your most capable model to audit your codebase and write plans for cheaper models to execute.
+- **Stars**：6,573 | **Forks**：270 | **语言**：N/A
+- **描述**：用你最强的模型审计代码库，为更廉价的模型制定执行计划。
 - **链接**：https://github.com/shadcn/improve
 
 ### 7. omnigent
-- **Stars**: 5,964 | **Forks**: 755 | **语言**：Python
-- **描述**：Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.
+- **Stars**：6,010 | **Forks**：769 | **语言**：Python
+- **描述**：Omnigent 是一个开源的 AI Agent 框架和元调度器：可编排 Claude Code、Codex、Cursor、Pi 和自定义 Agent——在不重写的情况下切换调度器，强制执行策略和沙箱，并在任何设备上实时协作。
 - **链接**：https://github.com/omnigent-ai/omnigent
 
 ### 8. DeepSpec
-- **Stars**: 5,750 | **Forks**: 461 | **语言**：Python
-- **描述**：DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms
+- **Stars**：5,839 | **Forks**：474 | **语言**：Python
+- **描述**：DeepSpec：用于训练和评估推测解码算法的全栈代码库。
 - **链接**：https://github.com/deepseek-ai/DeepSpec
 
 ### 9. loop-engineering
-- **Stars**: 4,700 | **Forks**: 596 | **语言**：JavaScript
-- **描述**：Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.
+- **Stars**：4,788 | **Forks**：605 | **语言**：JavaScript
+- **描述**：环路工程的实用模式、启动工具和 CLI 工具：用于 AI 编码 Agent 的提示与编排系统（参考 Addy Osmani 和 Boris Cherny），包含审计、初始化和成本计算工具。
 - **链接**：https://github.com/cobusgreyling/loop-engineering
 
 ### 10. lottie
-- **Stars**: 4,302 | **Forks**: 231 | **语言**：TypeScript
-- **描述**：Generate production-ready Lottie animations with Claude Code or Codex
+- **Stars**：4,363 | **Forks**：232 | **语言**：TypeScript
+- **描述**：使用 Claude Code 或 Codex 生成生产就绪的 Lottie 动画。
 - **链接**：https://github.com/diffusionstudio/lottie
+
+---
 
 ## 3. 软件开发创意点子与功能建议
 
 💡 **下一个项目的创新灵感**：
 
-1. Context-Aware Code Review Bot: AI that understands your team's coding standards, learns from past PR comments, and provides contextual feedback.
+### 🤖 AI 驱动的开发工具
+1. 上下文感知代码审查机器人——了解团队编码规范并从历史 PR 评论中学习的 AI，提供基于上下文的反馈。
+2. 智能调试助手——分析堆栈跟踪、提出修复建议、从调试模式中学习并连接错误追踪服务。
+3. 自动文档生成器——从代码 + 提交信息生成 API 文档，创建交互式教程，自动维护变更日志。
 
-2. Intelligent Debugging Assistant: Analyzes stack traces, suggests fixes, learns from debugging patterns, and connects to error tracking services.
+### 🔄 工作流自动化
+4. 智能会议摘要工具——自动录制、转写会议，提取行动项，与项目管理工具集成，生成后续提醒。
+5. 跨平台通知中心——所有通知的统一收件箱，AI 驱动的优先级排序，智能批量处理，可定制的自动化规则。
+6. 个人知识图谱——自动将笔记、文档和代码关联起来，AI 给出概念之间的关联建议，提供可视化图谱探索界面。
 
-3. Auto-Documentation Generator: Generates API docs from code + commit messages, creates interactive tutorials, maintains changelog automatically.
+### 🎨 开发者体验
+7. 沉浸式开发环境——根据编码流程自适应的背景音乐，带智能休息建议的番茄钟，屏蔽干扰的专注模式。
+8. 代码库时光机——可视化代码库随时间的演变，识别架构漂移，定位 Bug 引入时间点，生成重构迁移指南。
+9. 结对编程匹配器——根据技能和可用性匹配开发者，为特定任务推荐最佳搭档，追踪结对效果，并与日历集成调度。
 
-4. Smart Meeting Summarizer: Records and transcribes meetings, extracts action items, integrates with project management tools, creates follow-up reminders.
+### 📊 数据与分析
+10. 实时团队速度仪表盘——开发进度的实时指标，预测性完成时间估算，瓶颈识别，针对不同利益相关者的可自定义视图。
+11. API 使用智能分析——追踪 API 消耗模式，检测异常和潜在问题，提供成本优化建议，自动调整速率限制。
+12. CLI 工具用户行为热力图——可视化最常用的命令，识别令人困惑的工作流程，支持新命令设计的 A/B 测试，基于使用情况优化文档。
 
-5. Cross-Platform Notification Hub: Unified inbox for all notifications, AI-powered priority sorting, smart batching, custom automation rules.
+### 🔐 安全与合规
+13. 自动化安全审计流水线——持续漏洞扫描，依赖更新建议，合规报告生成，集成到 CI/CD 工作流。
+14. 密钥检测与轮换——扫描代码库中泄露的凭证，自动密钥轮换，与保险库服务集成，对可疑访问发出警报。
 
-6. Personal Knowledge Graph: Automatically links notes, documents, and code, AI-suggested connections, visual graph exploration interface.
+### 🌐 新兴技术
+15. WebAssembly 插件系统——安全、沙箱化的插件执行，跨语言插件支持，热重载无需重启，性能隔离。
+16. 边缘 AI 部署框架——轻松将模型部署到边缘设备，自动模型优化，支持联邦学习，离线优先架构。
 
-7. Ambient Development Environment: Background music that adapts to coding flow, Pomodoro timer with smart break suggestions, focus mode.
+### 🧪 测试与质量
+17. AI 驱动测试生成器——从代码自动生成单元测试，识别未测试的代码路径，建议覆盖边界情况，集成到 CI/CD 流水线。
+18. 视觉回归测试套件——自动化 UI 截图对比，像素级差异检测，跨浏览器测试支持，与设计系统集成。
 
-8. Codebase Time Machine: Visualize codebase evolution over time, identify architectural drift, find when bugs were introduced, generate migration guides.
-
-9. Pair Programming Matchmaker: Matches developers based on skills and availability, suggests optimal pairings, tracks effectiveness, integrates with calendar.
-
-10. Real-Time Team Velocity Dashboard: Live metrics on development progress, predictive completion estimates, bottleneck identification, customizable views.
-
-11. API Usage Intelligence: Track API consumption patterns, detect anomalies, cost optimization recommendations, automatic rate limiting adjustments.
-
-12. User Behavior Heatmaps for CLI Tools: Visualize most used commands, identify confusing workflows, A/B test new command designs, optimize documentation.
-
-13. Automated Security Audit Pipeline: Continuous vulnerability scanning, dependency update suggestions, compliance report generation, CI/CD integration.
-
-14. Secret Detection & Rotation: Scans codebase for leaked credentials, automated secret rotation, integration with vault services, alerts on suspicious access.
-
-15. WebAssembly Plugin System: Safe, sandboxed plugin execution, cross-language plugin support, hot-reload without restarts, performance isolation.
-
-16. Edge AI Deployment Framework: Deploy models to edge devices easily, automatic model optimization, federated learning support, offline-first architecture.
-
-17. AI-Powered Test Generator: Automatically generates unit tests from code, identifies untested code paths, suggests edge cases, integrates with CI/CD.
-
-18. Visual Regression Testing Suite: Automated UI screenshot comparison, pixel-perfect diff detection, cross-browser testing support, integration with design systems.
+---
 
 ## 4. 总结与行动项
 
 **📌 今日亮点**：
-- 天气数据来源于 wttr.inConviene de la ciudad de Hangzhou
-- 已获取 GitHub 热门仓库
-- 已编译软件开发创意
+- 天气炎热湿润，伴有小雨，气温 27‑32 °C，降雨概率随时间上升。
+- ponytail 在 GitHub 趋势榜首位，星标超 71k，是个有趣的 AI‑Agent 聚焦的 JS 项目。
+- 中国科技巨头（百度、小米）和开源 AI Agent 框架表现活跃。
 
 **🎯 推荐行动**：
-- 审阅生成的简报文件
-- 查看热门仓库以获取灵感
-- 考虑实施其中一个开发创意
+1. 随身携带雨具；今天下午和明天晚上降雨概率会增加。
+2. 查看 `ponytail` 项目，获取 AI 辅助开发工作流的灵感。
+3. 若你在智能文档处理或多代理系统方向工作，可关注 OCR 与 Agent 框架仓库。
+4. 考虑从上述 18 条创意中选一个进行原型验证——例如上下文感知代码审查机器人或个人知识图谱。
 
 **📅 明日预览**：
-- 继续监控天气和科技趋势
-- 敬请期待明日的简报
+- 预计最高气温达 32 °C，降雨概率在下午后显著上升，尤其傍晚时分。
+- 持续关注天气与科技趋势，明天见！
 
-*由每日简报自动化生成 | 2026-07-02*
+---
+
+*由每日简报自动化生成 | 2026 年 7 月 2 日*
 *天气数据：wttr.in | GitHub 数据：GitHub API | 创意：AI 助手*
