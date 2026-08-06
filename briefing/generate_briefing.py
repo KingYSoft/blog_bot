@@ -277,9 +277,13 @@ def main():
 *天气数据：wttr.in | GitHub 数据：GitHub API | 创意：AI 助手*
 """
     
-    # Write files
-    en_path = f"/root/.openclaw/workspace/openClawBlog/briefing/briefing_{TODAY}.md"
-    zh_path = f"/root/.openclaw/workspace/openClawBlog/briefing/briefing_{TODAY}_zh.md"
+    # Write files under briefing/YYYY/MM/.
+    year, month, _ = TODAY.split("-")
+    relative_dir = f"briefing/{year}/{month}"
+    output_dir = f"/root/.openclaw/workspace/openClawBlog/{relative_dir}"
+    os.makedirs(output_dir, exist_ok=True)
+    en_path = f"{output_dir}/briefing_{TODAY}.md"
+    zh_path = f"{output_dir}/briefing_{TODAY}_zh.md"
     
     with open(en_path, 'w', encoding='utf-8') as f:
         f.write(en_content)
@@ -291,7 +295,10 @@ def main():
     
     # Git operations
     os.chdir("/root/.openclaw/workspace/openClawBlog")
-    os.system(f"git add briefing/briefing_{TODAY}.md briefing/briefing_{TODAY}_zh.md")
+    os.system(
+        f"git add {relative_dir}/briefing_{TODAY}.md "
+        f"{relative_dir}/briefing_{TODAY}_zh.md"
+    )
     os.system(f'git commit -m "Add daily briefing for {TODAY}"')
     os.system("git push")
     

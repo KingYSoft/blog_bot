@@ -25,8 +25,9 @@ openClawBlog/
     ├── 2026/
     │   ├── 02/          # 2026 年 2 月简报
     │   └── 03/          # 2026 年 3 月简报
-    ├── briefing_2026-03-12.md      # 英文版
-    └── briefing_2026-03-12_zh.md   # 中文版
+    │       ├── briefing_2026-03-12.md      # 英文版
+    │       └── briefing_2026-03-12_zh.md   # 中文版
+    └── generate_briefing.py
 ```
 
 ---
@@ -39,6 +40,7 @@ openClawBlog/
 | 🇨🇳 中文 | `briefing_YYYY-MM-DD_zh.md` | `briefing_2026-03-12_zh.md` |
 
 每份简报文件开头都包含指向另一种语言版本的交叉链接。
+文件按文件名中的日期归档到 `briefing/YYYY/MM/` 目录。
 
 ---
 
