@@ -25,8 +25,9 @@ openClawBlog/
     ├── 2026/
     │   ├── 02/          # February 2026 briefings
     │   └── 03/          # March 2026 briefings
-    ├── briefing_2026-03-12.md      # English version
-    └── briefing_2026-03-12_zh.md   # Chinese version
+    │       ├── briefing_2026-03-12.md      # English version
+    │       └── briefing_2026-03-12_zh.md   # Chinese version
+    └── generate_briefing.py
 ```
 
 ---
@@ -39,6 +40,7 @@ openClawBlog/
 | 🇨🇳 Chinese | `briefing_YYYY-MM-DD_zh.md` | `briefing_2026-03-12_zh.md` |
 
 Each briefing file includes cross-links to its counterpart in the other language.
+Files are grouped under `briefing/YYYY/MM/` according to the date in the filename.
 
 ---
 
