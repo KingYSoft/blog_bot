@@ -16,7 +16,7 @@
 
 ## 方法与范围
 
-简报日期按 Asia/Shanghai 日历确定。“热门仓库”的**唯一入选来源**是实时官方 [GitHub Trending](https://github.com/trending) 默认页：全球/口语 **Any**、编程语言 **Any**、时间范围 **Today/Daily**。两次直连 HTML 请求都返回 HTTP 200，且从页面首个 `<article>` 到第 12 个、也是最后一个仓库，数量、顺序完全一致。联网检索服务中较早的“today”缓存与实时页面不同，因此未采用。没有添加、删除、重排或猜测任何仓库。
+简报日期按 Asia/Shanghai 日历确定。“热门仓库”的 **唯一入选来源** 是实时官方 [GitHub Trending](https://github.com/trending) 默认页：全球/口语 **Any**、编程语言 **Any**、时间范围 **Today/Daily**。两次直连 HTML 请求都返回 HTTP 200，且从页面首个 `<article>` 到第 12 个、也是最后一个仓库，数量、顺序完全一致。联网检索服务中较早的“today”缓存与实时页面不同，因此未采用。没有添加、删除、重排或猜测任何仓库。
 
 逐仓库打开了主页、完整 README，并在可用时用官方 [GitHub REST API](https://docs.github.com/en/rest/repos/repos#get-a-repository) 核对简介、主要语言、总 Star 与 push 时间。“stars today”只抄录实时 Trending HTML，不作推算。新闻优先事件发生于 8 月 7–8 日的内容，分别记录事件日期与发布时间；关键数字尽量以企业报告、政府材料或原始调查交叉核实。
 
@@ -175,7 +175,7 @@
 
 ### 6. Electronic Arts 完成 550 亿美元私有化
 
-- **简述：** 沙特 PIF、Silver Lake 与 Affinity Partners 完成 **550 亿美元**收购，股东每股获 210 美元现金，EA 退市；交易使用约 **200 亿美元**债务融资。
+- **简述：** 沙特 PIF、Silver Lake 与 Affinity Partners 完成 **550 亿美元** 收购，股东每股获 210 美元现金，EA 退市；交易使用约 **200 亿美元** 债务融资。
 - **重要性/影响：** 这是最大规模的私募股权融资收购，检验私有化和 AI 投资能否抵消债务、裁员、创意劳动与治理压力。
 - **事件日期：** 2026-08-04，8 月 5 日宣布完成。**发布时间：** 2026-08-05 16:36 UTC。
 - **来源：** [美联社](https://apnews.com/article/electronic-arts-sims-battlefield-silver-lake-e50d653ac4616d063296e2021d826a3c)。
@@ -203,7 +203,7 @@
 
 ### 10. SpaceX 首次限售解禁让流通股翻倍
 
-- **简述：** 8 月 6 日超过 **9 亿股**可交易；股价在前一日跌近 14% 后反弹 6.1% 至 114.92 美元，仍低于 135 美元 IPO 价。公司此前披露季度亏损 5.41 亿、收入 78 亿美元。
+- **简述：** 8 月 6 日超过 **9 亿股** 可交易；股价在前一日跌近 14% 后反弹 6.1% 至 114.92 美元，仍低于 135 美元 IPO 价。公司此前披露季度亏损 5.41 亿、收入 78 亿美元。
 - **重要性/影响：** 上市后的首次流动性测试，集中体现长期太空/AI 投资与短期估值、员工变现和稀释压力的冲突。
 - **事件日期：** 2026-08-06。**发布时间：** 2026-08-06 16:48 UTC，20:47 更新。
 - **来源：** [美联社](https://apnews.com/article/spacex-musk-shares-lockup-insiders-c75721ec2e43e5304a2184a9e6abae5e)。
@@ -219,7 +219,7 @@
 
 ### 2. 新墨西哥州要求 Meta 出资整改并增加青少年保护
 
-- **简述：** 法官命令 Meta 出资 **5.67 亿美元**整改，其中 4.2 亿用于治疗，另叠加早前 3.75 亿民事罚金；还要求警示、年龄保障改进、AI 聊天限制和州内未成年人每月 90 小时上限。Meta 将上诉。
+- **简述：** 法官命令 Meta 出资 **5.67 亿美元** 整改，其中 4.2 亿用于治疗，另叠加早前 3.75 亿民事罚金；还要求警示、年龄保障改进、AI 聊天限制和州内未成年人每月 90 小时上限。Meta 将上诉。
 - **重要性/影响：** 裁决给出了具体但仍有争议的未成年人产品控制模板，也暴露隐私友好年龄验证的实现难题。
 - **事件日期：** 2026-08-06 裁决；8 月 8 日跟进。**发布时间：** 2026-08-08 04:04 UTC。
 - **来源：** [美联社分析](https://apnews.com/article/meta-new-mexico-ruling-youth-mental-health-030dbeb27a51bdbdc861304023835e8d)；[裁决报道](https://apnews.com/article/meta-court-ruling-mental-health-online-platforms-21b425faf745d0f736b310ebd8bc6b89)。
@@ -291,7 +291,7 @@
 - **目标客户/首批 20 人：** 20 家公开仓库含 `SKILL.md`、`.agents/`、Claude plugin 或 agent installer 的 5–50 人 SaaS 团队安全/工程负责人。
 - **方案与差异：** 盘点并 hash skill、做语义 diff、识别 shell/网络/凭据指令、在 PR 输出有引用的 gate；不同于通用密钥扫描，它理解 manifest、引用文件和指令到工具权限。
 - **技术杠杆：** GitHub App、Markdown/AST、Semgrep 式规则与可签名清单，无需训练模型。
-- **1–2 周 MVP/不做：** 扫一个 GitHub repo；解析本地和 GitHub 引用；10 条确定性规则；签名清单与 PR 评论。**不做**恶意软件定性、全客户端、自动执行和企业策略平台。
+- **1–2 周 MVP/不做：** 扫一个 GitHub repo；解析本地和 GitHub 引用；10 条确定性规则；签名清单与 PR 评论。**不做** 恶意软件定性、全客户端、自动执行和企业策略平台。
 - **实现建议：** TypeScript GitHub App、unified/remark、tree-sitter/bash parser、SQLite/Postgres、Sigstore。
 - **商业模式/首发价：** 5 仓库 49 美元/月；带组织策略历史 149 美元/月。
 - **首批获客/第一条外联：** 搜索公开 `SKILL.md`，私发一页差异报告：“你的 agent installer 拉取 3 个未固定指令集，要不要在下次更新前加一个有证据的 PR gate？”
@@ -307,7 +307,7 @@
 - **目标客户/首批 20 人：** 20 家公开运行 agentic cyber eval 的小型模型实验室或安全咨询公司的 AI 安全工程师。
 - **方案与差异：** 生成 allowlist、临时凭据、网络策略、工具调用收据与签名例外报告；这是隔离/证据层，不是攻击 agent。
 - **技术杠杆：** 容器、eBPF/网络日志、policy-as-code 与签名 manifest，无需自建模型或漏洞语料。
-- **1–2 周 MVP/不做：** 包装一个 Docker agent；域名/IP 白名单；secret canary；出口/工具日志；签名报告。**不做**漏洞生成、生产 SOC、任意云编排和安全认证。
+- **1–2 周 MVP/不做：** 包装一个 Docker agent；域名/IP 白名单；secret canary；出口/工具日志；签名报告。**不做** 漏洞生成、生产 SOC、任意云编排和安全认证。
 - **实现建议：** Go CLI、Docker、Cilium/Tetragon 或 nftables、OPA/Rego、gitleaks、in-toto/Sigstore。
 - **商业模式/首发价：** 每评测 workspace 199 美元，或 149 美元/月。
 - **首批获客/第一条外联：** 联系公开论文/仓库作者：“你上次报告能证明每个数据包和凭据都在范围内吗？我可本地复跑一次。”
@@ -323,7 +323,7 @@
 - **目标客户/首批 20 人：** 20 个用 authentik 管理 10–200 用户、至少 5 个应用的自托管 SaaS 运维或 homelab 咨询商。
 - **方案与差异：** 快照配置，模拟 5 类登录角色，diff claim/group/policy，验证 break-glass 并生成回滚步骤；不同于上线监控，它先测授权意图。
 - **技术杠杆：** authentik API/blueprint、Playwright 与确定性角色 fixture。
-- **1–2 周 MVP/不做：** 单实例；配置快照/diff；5 个合成用户；OIDC 登录测试；加密回滚包。**不做**新 IdP、SAML 迁移、密码存储和自动生产回滚。
+- **1–2 周 MVP/不做：** 单实例；配置快照/diff；5 个合成用户；OIDC 登录测试；加密回滚包。**不做** 新 IdP、SAML 迁移、密码存储和自动生产回滚。
 - **实现建议：** Python、authentik API、Playwright、pytest、age 加密、GitHub Actions。
 - **商业模式/首发价：** 每实例 39 美元/月；升级单次核验 149 美元。
 - **首批获客/第一条外联：** 在 authentik 支持帖找运维：“升级前我可跑 5 条角色路径，准确显示哪些 claim 改了。”
@@ -339,7 +339,7 @@
 - **目标客户/首批 20 人：** 20 家公开推广 coding agent、且有至少 5 个重复任务的小团队工程效率负责人。
 - **方案与差异：** 记录任务 fixture、期望 artifact、允许命令、成本/时间与人工审查结果，在 skill/model 更新时重放；成功标准是仓库状态和策略，不是主观文风。
 - **技术杠杆：** Git worktree、容器、JSONL fixture 与已有 agent CLI。
-- **1–2 周 MVP/不做：** 一个 CLI adapter；5 个 fixture；文件/测试/策略断言；成本时间 diff；GitHub Check。**不做**托管 agent、主观代码评分和自动 merge。
+- **1–2 周 MVP/不做：** 一个 CLI adapter；5 个 fixture；文件/测试/策略断言；成本时间 diff；GitHub Check。**不做** 托管 agent、主观代码评分和自动 merge。
 - **实现建议：** Go/Python runner、Docker、Git worktree、OpenTelemetry、GitHub Checks API。
 - **商业模式/首发价：** 100 次运行 79 美元/月；5 fixture 设置包 249 美元。
 - **首批获客/第一条外联：** 展示公开 skill 更新导致的可复现失败：“这 5 条检查能否在你仓库挡住同类回归？”
@@ -355,7 +355,7 @@
 - **目标客户/首批 20 人：** 20 家公开使用 Durable Objects、正在讨论自托管、数据驻留或云成本的小 SaaS/agency。
 - **方案与差异：** 扫 Worker bundle/config，识别不兼容 API，建模 object/S3 操作，给出带置信区间的迁移实验；不同于通用云计算器，它理解对象状态和休眠。
 - **技术杠杆：** 静态分析加本地 replay benchmark，无需托管基础设施。
-- **1–2 周 MVP/不做：** Wrangler bundle 扫描；15 条兼容规则；trace 导入；S3 成本/恢复模型；迁移清单。**不做**自动迁移、托管 celld、多云基准和保证。
+- **1–2 周 MVP/不做：** Wrangler bundle 扫描；15 条兼容规则；trace 导入；S3 成本/恢复模型；迁移清单。**不做** 自动迁移、托管 celld、多云基准和保证。
 - **实现建议：** TypeScript AST、Wrangler parser、DuckDB、celld Docker、AWS 价格表。
 - **商业模式/首发价：** 单次报告 99 美元；重复 trace 49 美元/月。
 - **首批获客/第一条外联：** 搜 Durable Objects repo/issue：“你的 alarm/storage 路径需要兼容测试；我已对公开 bundle 和 24 小时 trace 建模。”
@@ -371,7 +371,7 @@
 - **目标客户/首批 20 人：** 20 家美国信用合作社、小型 fee-only 顾问公司或财务教育应用的内容/产品负责人。
 - **方案与差异：** 用监管机构语料核对定义，标出过时利率/限额与推荐措辞，并要求人工签字；不同于通用 fact checker，它使用固定金融 schema，拒绝适当性判断。
 - **技术杠杆：** CFPB/SEC/IRS/Fed 检索与确定性 claim 规则。
-- **1–2 周 MVP/不做：** 粘贴/API；20 类 claim；来源/日期核对；建议措辞标记；审阅导出。**不做**资产配置、税务计算、账户接入和顾问聊天机器人。
+- **1–2 周 MVP/不做：** 粘贴/API；20 类 claim；来源/日期核对；建议措辞标记；审阅导出。**不做** 资产配置、税务计算、账户接入和顾问聊天机器人。
 - **实现建议：** FastAPI、Postgres/pgvector、官方来源 crawler、Pydantic，LLM 只做有引用抽取。
 - **商业模式/首发价：** 500 次检查 99 美元/月；100 篇审计 299 美元。
 - **首批获客/第一条外联：** 审 5 篇公开文章：“两项限额未标日期，3 句话像个性建议，要不要拿完整引用审阅文件？”
@@ -387,7 +387,7 @@
 - **目标客户/首批 20 人：** 20 家明确把未成年人列入用户、员工少于 30 人的美国教育、陪伴或 wellness chatbot。
 - **方案与差异：** 把公开宣传和 scripted conversation 映射到披露、升级、限时、年龄路由与证据要求；不同于法律检索，它产生可复现测试，并明确交给律师复核。
 - **技术杠杆：** 浏览器自动化、版本化来源快照与场景 fixture。
-- **1–2 周 MVP/不做：** Landing page 扫描；20 个脚本场景；证据截图；新墨西哥/加州清单；律师交接导出。**不做**年龄验证、治疗、完整 moderation 和法律结论。
+- **1–2 周 MVP/不做：** Landing page 扫描；20 个脚本场景；证据截图；新墨西哥/加州清单；律师交接导出。**不做** 年龄验证、治疗、完整 moderation 和法律结论。
 - **实现建议：** Playwright、TypeScript、JSON 场景 DSL、source snapshot、PDF/Markdown export。
 - **商业模式/首发价：** 每次发布 249 美元，或监控 99 美元/月。
 - **首批获客/第一条外联：** 私发一条失败用例：“该流程进入危机语言却没有可见转人工；要不要完整 20 条有来源 preflight？”
@@ -403,7 +403,7 @@
 - **目标客户/首批 20 人：** 20 个开源量化/LLM 金融仓库或发布可复现 notebook 的小研究通讯维护者。
 - **方案与差异：** 把 feature 追溯到实际可用时间，标记修订数据和当日收盘误用，固定输入 hash，输出复现 manifest；只审时间完整性，不是回测器。
 - **技术杠杆：** Pandas/Polars lineage hook 与交易日历 API。
-- **1–2 周 MVP/不做：** Python wrapper；CSV/Parquet 时间戳；市场日历；5 条泄漏规则；签名 manifest。**不做**券商、策略生成、收益承诺和实盘。
+- **1–2 周 MVP/不做：** Python wrapper；CSV/Parquet 时间戳；市场日历；5 条泄漏规则；签名 manifest。**不做** 券商、策略生成、收益承诺和实盘。
 - **实现建议：** Python、Polars、exchange calendars、OpenLineage、DVC hash、GitHub Actions。
 - **商业模式/首发价：** CLI 开源；托管历史与 PR 检查 79 美元/月。
 - **首批获客/第一条外联：** 对公开 repo 礼貌提交一条可复现时间问题，再提供私有 CI 运行。
@@ -419,7 +419,7 @@
 - **目标客户/首批 20 人：** 20 家服务 Texas 数据中心项目的许可、电气、水务或选址 boutique 咨询公司，而不是直接卖 hyperscaler。
 - **方案与差异：** 固定 schema、来源/版本、缺失证据、情景总量和 reviewer 导出；不同于 data room，每个字段映射公开指令，不预测审批。
 - **技术杠杆：** 表单、文档抽取、版本化引用能自动化重复专业交付。
-- **1–2 周 MVP/不做：** 一套指令 schema；10 种文档；source citation；缺失报告；PDF/CSV 导出。**不做**工程计算、代办许可、电网模拟和监管建议。
+- **1–2 周 MVP/不做：** 一套指令 schema；10 种文档；source citation；缺失报告；PDF/CSV 导出。**不做** 工程计算、代办许可、电网模拟和监管建议。
 - **实现建议：** Next.js、Postgres、加密对象存储、pdfplumber、Pydantic、document hash。
 - **商业模式/首发价：** 每项目 399 美元，或 3 个活动项目 149 美元/月。
 - **首批获客/第一条外联：** “我把州长要求映射成 22 项材料包，能否拿一个真实站点与你现有表格对比？”
@@ -451,7 +451,7 @@
 - **目标客户/首批 20 人：** 20 个公开 Java 库维护者，或含 Guava、20 个以上 module 的 10–100 人后端团队。
 - **方案与差异：** 将变更 symbol 映射到调用点、公共 API、Android/JRE flavor、测试和运行路径，再生成聚焦测试计划；不同于 Dependabot，它排序语义故障半径。
 - **技术杠杆：** JAR/API diff、静态调用图与 Maven/Gradle 元数据成熟。
-- **1–2 周 MVP/不做：** 只支持 Maven、Guava/JDK；binary API diff；调用图；PR 评论与 5 条测试建议。**不做**自动修复、全 JVM 语言、运行时 profiling 和漏洞扫描。
+- **1–2 周 MVP/不做：** 只支持 Maven、Guava/JDK；binary API diff；调用图；PR 评论与 5 条测试建议。**不做** 自动修复、全 JVM 语言、运行时 profiling 和漏洞扫描。
 - **实现建议：** JavaParser、japicmp、Maven tree、Graphviz、GitHub App。
 - **商业模式/首发价：** 5 repo 39 美元/月；公开 repo 免费。
 - **首批获客/第一条外联：** “这次升级触达两个现有测试未覆盖的 exported method，要不要在下次 bump 看完整报告？”
@@ -467,7 +467,7 @@
 - **目标客户/首批 20 人：** 20 家有公开跨浏览器 issue 的 Web component/design-system 厂商或扩展团队 QA lead。
 - **方案与差异：** 捕获页面、去数据、delta-debug 资源、在多引擎重跑并导出标准化复现包；不同于截图测试，它尽量找最小因果。
 - **技术杠杆：** Playwright、Web Platform Tests 模式和自动 delta debugging。
-- **1–2 周 MVP/不做：** URL/本地页面；数据脱敏；DOM/CSS/JS minimizer；3 个稳定浏览器加 Ladybird 手工 runner；GitHub bundle。**不做**浏览器云、全量视觉回归和自动标准定性。
+- **1–2 周 MVP/不做：** URL/本地页面；数据脱敏；DOM/CSS/JS minimizer；3 个稳定浏览器加 Ladybird 手工 runner；GitHub bundle。**不做** 浏览器云、全量视觉回归和自动标准定性。
 - **实现建议：** Node.js、Playwright、ddmin、Docker、HTML AST、GitHub API。
 - **商业模式/首发价：** 29 美元/最小案例，或 5 个 79 美元/月。
 - **首批获客/第一条外联：** 为未解决公开 issue 做一个安全复现：“页面减少 96% 后仍在两个引擎失败，接下来 5 个私有案例是否愿意付费？”
@@ -483,7 +483,7 @@
 - **目标客户/首批 20 人：** 20 名公开表示 30 天内面试具体公司的中级 DevOps/SRE 候选人。
 - **方案与差异：** 把问题映射技能，要求提交证据，生成 3 个 sandbox lab 并按可观察完成情况评分；不同于 mock chatbot，重点是 artifact，并标注轶事来源。
 - **技术杠杆：** 容器化 lab 与 rubric 模板可以自动交付，无需雇教练。
-- **1–2 周 MVP/不做：** 导入一套题；skill map；3 个 Docker lab；证据上传；7 天日程。**不做**泄题答案、直播辅导、招聘匹配和雇主评分。
+- **1–2 周 MVP/不做：** 导入一套题；skill map；3 个 Docker lab；证据上传；7 天日程。**不做** 泄题答案、直播辅导、招聘匹配和雇主评分。
 - **实现建议：** Next.js、Docker lab、GitHub/Gist 证据、rubric engine、Stripe link。
 - **商业模式/首发价：** 每岗位/公司 sprint 39 美元。
 - **首批获客/第一条外联：** “你的目标岗位常问 Kubernetes 事故；这是一个 20 分钟 lab 和证据 rubric，39 美元解锁完整 7 天包。”
@@ -499,7 +499,7 @@
 - **目标客户/首批 20 人：** 20 家拥有 100–2,000 PDF 的独立中文学校或 nonprofit 补习项目数字学习负责人。
 - **方案与差异：** hash 文件，找重复/拆分，记录权利证据，测试 OCR/阅读顺序并导出修复队列；不同于文档库，它不托管、不再分发内容。
 - **技术杠杆：** PDF 元数据、OCR、hash 和无障碍 heuristic 可完全本地运行，无需专有语料。
-- **1–2 周 MVP/不做：** 文件夹扫描；重复/拆分；rights-status 字段；OCR/text coverage；CSV/HTML 报告。**不做**内容下载、法律清权、LMS 和自动再发布。
+- **1–2 周 MVP/不做：** 文件夹扫描；重复/拆分；rights-status 字段；OCR/text coverage；CSV/HTML 报告。**不做** 内容下载、法律清权、LMS 和自动再发布。
 - **实现建议：** Python CLI、pypdf、OCRmyPDF/Tesseract、感知 hash、本地 SQLite。
 - **商业模式/首发价：** 2,000 文件审计 149 美元；重扫 29 美元/月。
 - **首批获客/第一条外联：** “这份报告显示哪些 PDF 没来源、无文本层或重复拆分；能否在本地扫一个文件夹？”
@@ -534,4 +534,4 @@
 
 核心来源为实时 [GitHub Trending](https://github.com/trending)、各仓库主页/README、[GitHub REST API](https://docs.github.com/en/rest)、美联社，以及每条新闻旁链接的企业报告、调查、法案和政府指令。GitHub 实时页面当日曾变化；本文记录的是 22:13–22:16 CST 快照，不是较早缓存。
 
-本简报仅作信息整理，**不构成**投资、法律、会计、医疗、网络安全或其他专业建议。市场数字、Star 和排名均为时点观察。流行度不代表代码质量、安全性、许可或适用性；采用前请检查代码与条款。创业点子都是待验证假设，需要客户访谈、技术测试及所在司法辖区的专业审查。
+本简报仅作信息整理，**不构成** 投资、法律、会计、医疗、网络安全或其他专业建议。市场数字、Star 和排名均为时点观察。流行度不代表代码质量、安全性、许可或适用性；采用前请检查代码与条款。创业点子都是待验证假设，需要客户访谈、技术测试及所在司法辖区的专业审查。

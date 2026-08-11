@@ -64,52 +64,52 @@
 🔥 **按星标数排序（最近 30 天创建）**：
 
 ### 1. ⚡ ultraworkers/claw-code
-- **星标**：188,405 | ** fork**：109,365 | **语言**：Rust
+- **星标**：188,405 | **fork**：109,365 | **语言**：Rust
 - **描述**：仓库终于解锁了。享受派对！成为历史上最快突破 100K 星标 ⭐ 的仓库。加入 Discord：https://discord.gg/5TUQKqFWd 使用 oh-my-codex 构建的 Rust 项目。
 - **链接**：https://github.com/ultraworkers/claw-code
 
 ### 2. 🎨 VoltAgent/awesome-design-md
-- **星标**：65,559 | ** fork**：8,092 | **语言**：无
+- **星标**：65,559 | **fork**：8,092 | **语言**：无
 - **描述**：一系列受流行品牌设计系统启发的 DESIGN.md 文件。将其一放入您的项目中，让编码代理生成匹配的 UI。
 - **链接**：https://github.com/VoltAgent/awesome-design-md
 
 ### 3. 🧠 MemPalace/mempalace
-- **星标**：49,686 | ** fork**：6,513 | **语言**：Python
+- **星标**：49,686 | **fork**：6,513 | **语言**：Python
 - **描述**：最佳基准开源 AI 内存系统。而且它是免费的。
 - **链接**：https://github.com/MemPalace/mempalace
 
 ### 4. 🪨 JuliusBrussee/caveman
-- **星标**：46,636 | ** fork**：2,453 | **语言**：Python
+- **星标**：46,636 | **fork**：2,453 | **语言**：Python
 - **描述**：🪨 为什么要用很多 token 当少量 token 就能完成任务 — Claude Code 技能，通过像原始人一样说话减少 65% 的 token 使用。
 - **链接**：https://github.com/JuliusBrussee/caveman
 
 ### 5. 💼 santifer/career-ops
-- **星标**：39,720 | ** fork**：8,141 | **语言**：JavaScript
+- **星标**：39,720 | **fork**：8,141 | **语言**：JavaScript
 - **描述**：基于 Claude Code 构建的 AI 驱动求职系统。14 种技能模式，Go 仪表盘，PDF 生成，批处理。
 - **链接**：https://github.com/santifer/career-ops
 
 ### 6. 📊 safishamsi/graphify
-- **星标**：34,934 | ** fork**：3,879 | **语言**：Python
+- **星标**：34,934 | **fork**：3,879 | **语言**：Python
 - **描述**：AI 编码助手技能（Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity）。将任何包含代码、文档、论文、图片或视频的文件夹转换为可查询的知识图谱。
 - **链接**：https://github.com/safishamsi/graphify
 
 ### 7. 🔑 Gitlawb/openclaude
-- **星标**：24,414 | ** fork**：8,024 | **语言**：TypeScript
+- **星标**：24,414 | **fork**：8,024 | **语言**：TypeScript
 - **描述**：Open Claude 是一个开源的编码代理 CLI，适用于 OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models，以及通过 OpenAI 兼容 API 的 200+ 模型。
 - **链接**：https://github.com/Gitlawb/openclaude
 
 ### 8. 💻 claude-code-best/claude-code
-- **星标**：16,929 | ** fork**：15,435 | **语言**：TypeScript
+- **星标**：16,929 | **fork**：15,435 | **语言**：TypeScript
 - **描述**：原汁原味 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动
 - **链接**：https://github.com/claude-code-best/claude-code
 
 ### 9. 👥 titanwings/colleague-skill
-- **星标**：16,600 | ** fork**：1,686 | **语言**：Python
+- **星标**：16,600 | **fork**：1,686 | **语言**：Python
 - **描述**：将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶
 - **链接**：https://github.com/titanwings/colleague-skill
 
 ### 10. 🤖 openai/codex-plugin-cc
-- **星标**：16,111 | ** fork**：908 | **语言**：JavaScript
+- **星标**：16,111 | **fork**：908 | **语言**：JavaScript
 - **描述**：在 Claude Code 中使用 Codex 来审查代理或委托任务。
 - **链接**：https://github.com/openai/codex-plugin-cc
 
