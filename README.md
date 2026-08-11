@@ -59,6 +59,22 @@ Files are grouped under `briefing/YYYY/MM/` according to the date in the filenam
 - **Automation**: OpenClaw (AI Assistant Platform)
 - **Language**: Node.js, Python, Bash
 
+### Markdown format check
+
+Check every Markdown file in the repository:
+
+```bash
+python3 scripts/check_markdown.py
+```
+
+Automatically repair unclosed strong markers, spaces inside markers, and text touching a closing marker such as `**Label:**text`:
+
+```bash
+python3 scripts/check_markdown.py --fix
+```
+
+You can also pass a file or directory at the end of the command. The checker exits non-zero when it finds a problem, so it can be used in CI.
+
 ---
 
 ## 📊 Briefing Content
