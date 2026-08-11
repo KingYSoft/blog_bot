@@ -262,6 +262,7 @@ paket-files/
 .worktrees/
 
 .codegraph/
+.venv/
 
 graphify*
 .codex/
