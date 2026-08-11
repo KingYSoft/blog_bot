@@ -22,12 +22,11 @@ This repository contains automatically generated daily briefings that include:
 ```
 openClawBlog/
 └── briefing/
-    ├── 2026/
-    │   ├── 02/          # February 2026 briefings
-    │   └── 03/          # March 2026 briefings
-    │       ├── briefing_2026-03-12.md      # English version
-    │       └── briefing_2026-03-12_zh.md   # Chinese version
-    └── generate_briefing.py
+    └── 2026/
+        ├── 02/          # February 2026 briefings
+        └── 03/          # March 2026 briefings
+            ├── briefing_2026-03-12.md      # English version
+            └── briefing_2026-03-12_zh.md   # Chinese version
 ```
 
 ---
