@@ -59,6 +59,22 @@ openClawBlog/
 - **自动化平台**: OpenClaw (AI 助手平台)
 - **编程语言**: Node.js, Python, Bash
 
+### Markdown 格式检查
+
+检查仓库内所有 Markdown 文件：
+
+```bash
+python3 scripts/check_markdown.py
+```
+
+自动修复加粗标记未闭合、标记内多余空格，以及 `**标签：**正文` 中标记紧贴正文的问题：
+
+```bash
+python3 scripts/check_markdown.py --fix
+```
+
+也可以在命令末尾指定单个文件或目录。检查发现问题时脚本会返回非零退出码，可直接用于 CI。
+
 ---
 
 ## 📊 简报内容详情
