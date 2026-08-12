@@ -85,7 +85,7 @@
 
 ### 6. OrcaSlicer-bambulab
 - **Stars**: 5,985 | **Forks**: 4,549 | **语言**: C++
-- **描述": 空
+- **描述**: 空
 - **链接**: https://github.com/FULU-Foundation/OrcaSlicer-bambulab
 
 ### 7. awesome-gpt-image-2
@@ -95,17 +95,17 @@
 
 ### 8. Kami
 - **Stars**: 5,442 | **Forks**: 276 | **语言**: HTML
-- **描述": 👩🚒 好内容值得好纸张。
+- **描述**: 👩🚒 好内容值得好纸张。
 - **链接**: https://github.com/tw93/Kami
 
 ### 9. garden-skills
 - **Stars**: 5,317 | **Forks**: 776 | **语言**: CSS | 标签: agent, claude, gpt-image-2, rag, skills, web-design
-- **描述": ConardLi 的开源 Skills 集合，包含网页设计、知识检索、图像生成等。
+- **描述**: ConardLi 的开源 Skills 集合，包含网页设计、知识检索、图像生成等。
 - **链接**: https://github.com/ConardLi/garden-skills
 
 ### 10. dirtyfrag
 - **Stars**: 4,662 | **Forks**: 738 | **语言**: C
-- **描述": 空
+- **描述**: 空
 - **链接**: https://github.com/V4bel/dirtyfrag
 
 ---
